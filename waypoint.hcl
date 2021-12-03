@@ -5,7 +5,6 @@ labels = { "domaine" = "esignsante-psc" }
 runner {
     enabled = true
     data_source "git" {
-        url = "https://github.com/ansforge/db-esignsante-psc"
         ref = "var.datacenter"
     }
     poll {
